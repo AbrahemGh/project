@@ -24,5 +24,6 @@ public class Main {
         System.exit(0);
 
 	public static int addFunction(int x,int y){return x+y;}
+	public static int divFunction(int x,int y){(y==0)?return 0:return x/y;} 
     }
 }
