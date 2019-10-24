@@ -16,8 +16,8 @@ public class Main {
         String op= in.next();
         switch (op){
             case "+": System.out.println("result: "+addFunction(firstNumber,secondNumber));break;
-            case "-": System.out.println("result: "+(firstNumber-secondNumber));break;
-            case "/": System.out.println("result: "+(firstNumber/secondNumber));break;
+            case "-": System.out.println("result: "+MinFunction(firstNumber,secondNumber));break;
+            case "/": System.out.println("result: "+divFunction(firstNumber,secondNumber));break;
             case "*": System.out.println("result: "+(firstNumber*secondNumber));break;
 
         }
