@@ -25,5 +25,6 @@ public class Main {
 
 	public static int addFunction(int x,int y){return x+y;}
 	public static int divFunction(int x,int y){(y==0)?return 0:return x/y;} 
+	public static int MinFunction(int x,int y){return x-y;}
     }
 }
