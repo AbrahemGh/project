@@ -15,12 +15,14 @@ public class Main {
         System.out.println("Enter Operation:");
         String op= in.next();
         switch (op){
-            case "+": System.out.println("result: "+(firstNumber+secondNumber));break;
+            case "+": System.out.println("result: "+addFunction(firstNumber,secondNumber));break;
             case "-": System.out.println("result: "+(firstNumber-secondNumber));break;
             case "/": System.out.println("result: "+(firstNumber/secondNumber));break;
             case "*": System.out.println("result: "+(firstNumber*secondNumber));break;
 
         }
         System.exit(0);
+
+	public static int addFunction(int x,int y){return x+y;}
     }
 }
